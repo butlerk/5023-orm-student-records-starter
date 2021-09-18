@@ -1,4 +1,4 @@
-# Import sqlalchemy function required to write to database and Classes for defining table columns
+## Import sqlalchemy function required to write to database and Classes for defining table columns
 from sqlalchemy import create_engine, Column, Integer, Text, Boolean
 # Import functions from SQLAlchemy ORM for defining entities and managing connection to SQLite database
 from sqlalchemy.orm import declarative_base, sessionmaker
