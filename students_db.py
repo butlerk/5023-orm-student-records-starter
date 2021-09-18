@@ -56,9 +56,16 @@ dom = Student (
 )
 session.add(dom)
 
- # TODO: Add code to add another student here
+xavier = Student (
+    name = 'Xavier',
+    english_mark = 100,
+    science_mark = 100,
+    mathematics_mark = 100,
+    does_homework = True,
+    stays_on_task = True,
+)
+session.add(xavier)
 
-# The changes are committed (saved in the underlying database - records.db)
 session.commit()
 
 '''
